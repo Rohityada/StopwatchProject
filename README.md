@@ -6,4 +6,5 @@ When the page loads, it displays a timer with "00:00:00" and three buttons: "Sta
 When the "Start" button is clicked, the stopwatch starts counting up from "00:00:00." The "Start" button is disabled, and the "Stop" and "Reset" buttons are enabled.
 When the "Stop" button is clicked, the stopwatch stops counting, and the current time is displayed. The "Stop" button is disabled, and the "Start" and "Reset" buttons are enabled.
 When the "Reset" button is clicked, the stopwatch is reset to "00:00:00." All buttons return to their initial state.
+
 The project provides a simple and interactive way to simulate a stopwatch using HTML, CSS, and JavaScript. Users can start, stop, and reset the timer, making it a basic but functional stopwatch application.
