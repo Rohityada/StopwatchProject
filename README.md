@@ -1,1 +1,4 @@
-
+start(): This function listens for a click event on the start button. When the button is clicked, the function starts the stopwatch by calling the stopWatch() function.
+stop(): This function listens for a click event on the stop button. When the button is clicked, the function stops the stopwatch by setting the counter variable to false.
+reset(): This function listens for a click event on the reset button. When the button is clicked, the function resets the stopwatch by setting the hour, minute, and second variables to 0 and the counter variable to false.
+stopWatch(): This function is the main function of the stopwatch. It increments the second variable by 1 every second. If the second variable reaches 60, it increments the minute variable by 1 and resets the second variable to 0. If the minute variable reaches 60, it increments the hour variable by 1 and resets the minute variable to 0. The function then updates the hr, min, and sec elements with the current time. The function also calls itself recursively every 1000 milliseconds (1 second) to keep the stopwatch running.
